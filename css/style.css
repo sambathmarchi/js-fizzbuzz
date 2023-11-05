@@ -1,0 +1,49 @@
+body {
+    background-color: #083b4c;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    color: black;
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 25%;
+    box-shadow: 3px 3px 3px rgb(88, 82, 82);
+    cursor: pointer;
+
+}
+
+
+.bg-blue {
+    background-color: #1389b2;
+}
+
+.bg-green {
+    background-color: #0cd6a1;
+}
+
+.bg-red {
+    background-color: #f0466f;
+}
+
+.bg-yellow {
+    background-color: goldenrod;
+}
